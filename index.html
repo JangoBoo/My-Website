@@ -6,20 +6,12 @@
 <title>Darren — Computer Science Student</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<!-- Monoton (the big neon display font) previously used display=optional to
-     avoid a reflow when it swapped in, but optional gives it no real swap
-     window — on a slow/cold-cache load the browser commits to the fallback
-     font for good and Monoton never appears. display=swap trades a brief
-     reflow for the font reliably showing up. -->
 <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css?v=8">
 </head>
 <body>
 
-<!-- decorative ornate frame around the whole page — built from 8 background-image
-     pieces (4 corners + 4 repeating edges) instead of border-image, which Safari
-     fails to render reliably on a position:fixed element -->
 <div class="page-frame" aria-hidden="true">
   <span class="pf-corner pf-tl"></span>
   <span class="pf-corner pf-tr"></span>
@@ -32,7 +24,7 @@
 </div>
 
 <nav class="navbar">
-  <a href="#top" class="nav-logo">達倫<span class="latin">Darren</span><span class="corner-glyph" aria-hidden="true"><span class="corner-glyph-track"><b>☠︎</b><b>✟</b><b>♛</b><b>☯</b><b>♨</b><b>✭</b></span></span></a>
+  <a href="#top" class="nav-logo">達倫<span class="latin">Darren</span><span class="corner-glyph" aria-hidden="true"><span class="corner-glyph-track"><b>☠︎</b><b>✟</b><b>♛</b><b>❣</b><b>♱</b><b>✭</b></span></span></a>
   <button type="button" class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navLinks">
     <svg class="nav-toggle-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
       <line class="nav-toggle-line line-1" x1="3" y1="6" x2="21" y2="6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
